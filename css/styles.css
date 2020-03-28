@@ -161,7 +161,7 @@ width:154px;
 
 /****************** Mobile Devices *******************/
 
-@media (max-width:360px) {
+@media screen and (max-width:360px) {
         a{
           margin: 10px 8px 10px;
           color: #11999E;
@@ -178,18 +178,23 @@ width:154px;
           font-family: 'Merriweather', serif;
         }
         h1{
-          font-size: 2rem;
+          font-size: 2.4rem;
           margin-top: 4%;
           margin-bottom: 0;
-	  color: #00bdaa;
+          color: #05a7a0;
         }
         h2{
           font-size: 1rem;
-          color: #66BFBF;
+          color: #05a7a0;
         }
         h3{
           font-size: 80%;
           color: #11999E;
+          position: relative;
+          right: 16px;
+          bottom: 3px;
+          padding-top: 4%;
+
         }
         hr{
           border-style: dotted;
@@ -201,12 +206,10 @@ width:154px;
         }
         p{
           font-family: 'Montserrat', sans-serif;
-          font-size: 100%;
-          line-height: 1.6;
-        }
+          font-size: 0.7rem;        }
         /************************** CONTAINERS ********************************/
         .top-container{
-          background-color: #EAF9F5;
+          background-color: #ebf5f3;
           padding-top: 50px;
           position: relative;
         }
@@ -216,8 +219,7 @@ width:154px;
         }
         .bottom-container{
           background-color: #66BFBF;
-          padding: 50px 0 20px;
-          margin-top: 10px;
+          padding: 8px 0 1px;
         }
         /********************* CLASS SELECTORS **************************/
         .bottom-cloud{
@@ -232,26 +234,26 @@ width:154px;
         	background-color:#16ccc9;
         	-webkit-border-top-left-radius:8px;
         	-moz-border-radius-topleft:8px;
-        	border-top-left-radius:8px;
+        	border-top-left-radius:5px;
         	-webkit-border-top-right-radius:8px;
         	-moz-border-radius-topright:8px;
-        	border-top-right-radius:8px;
+        	border-top-right-radius:5px;
         	-webkit-border-bottom-right-radius:8px;
         	-moz-border-radius-bottomright:8px;
-        	border-bottom-right-radius:8px;
+        	border-bottom-right-radius:5px;
         	-webkit-border-bottom-left-radius:8px;
         	-moz-border-radius-bottomleft:8px;
-        	border-bottom-left-radius:8px;
+        	border-bottom-left-radius:5px;
         text-indent:0;
         	display:inline-block;
         	color:#ffffff;
         	font-family: 'Montserrat', sans-serif;
-        	font-size:20px;
+        	font-size:11px;
         	font-weight:bold;
         	font-style:normal;
-        height:38px;
-        	line-height:38px;
-        width:154px;
+        height:22px;
+        	line-height:24px;
+        width:93px;
         	text-decoration:none;
         	text-align:center;
           margin-top: 10px;
@@ -264,25 +266,36 @@ width:154px;
         }
         .copyright{
           color: #EAF6F6;
-          font-size: 0.85rem;
-          padding: 20px 0;
+          font-size: 0.45rem;
+          padding: 5px 0 3px;
         }
         .css{
-          height: 18%;
-          width: 18%;
+          width: 23%;
           float: right;
+          margin-top: 17%;
+          position: relative;
+          left: 2%;
+        }
+        .css-header{
+          position: relative;
+          left: 3%;
         }
         .footer-link{
-          font-size: 1.25rem;
+          font-size: 0.65rem;
         }
         .html{
-          height: 18%;
-          width: 18%;
+          width: 21%;
           float: left;
+          margin-top: 14%;
+          margin-right: 1%;
         }
         .html-skill-row{
-          width: 50%;
-          margin: 5% auto 7%;
+          width: 89%;
+          margin: 8% auto 7%;
+          border: solid 5px #24d5cd63;
+          border-radius: 4%;
+          padding: 4%;
+          background-color: #f5f0e599;
         }
         .intro{
           font-size: 0.7rem;
@@ -301,11 +314,15 @@ width:154px;
           margin: 5% 1% 5% 1%;
         }
         .skill-row{
-          width: 50%;
-          margin: 3% auto 7%;
+          width: 89%;
+          margin: 3% auto 3%;
+          border: solid 5px #24d5cd63;
+          border-radius: 4%;
+          padding: 4%;
+          background-color: #f5f0e599;
         }
         .tagline{
-          font-size: 40%;
+          font-size: 50%;
           margin-top: 0;
           color: #66BFBF;
           font-weight: normal;
@@ -317,7 +334,7 @@ width:154px;
         }
         .mountain-img{
           width: 60%;
-          padding-top: 5%;
+          padding-top: 10%;
         }
 
       }
